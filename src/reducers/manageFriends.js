@@ -19,7 +19,7 @@ export function manageFriends(state = {
           {...state,
               friends: [
                 ...state.friends.slice(0, friend),
-                ...state.friends.slice(friend + 1)
+                // ...state.friends.slice(friend + 1)
               ]
           }
         )
